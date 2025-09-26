@@ -8,9 +8,8 @@ export default {
       return new Response(
         JSON.stringify({
           success: true,
-          discord: "https://discord.gg/cwDTVKyKJz",
-          website: "https://ish.junioralive.in",
-          repo: "https://github.com/junioralive/gptoss-proxy",
+          website: "https://so-tuff.teamgaming.pw",
+          repo: "https://github.com/xtoazt/geepeetee",
         }),
         { status: 200, headers: corsHeaders({ "content-type": "application/json" }) }
       );
